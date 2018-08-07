@@ -1,15 +1,16 @@
+const COUNT_REGEX = /^\((\d+)\)/;
+
 module.exports = (Franz) => {
     function getMessages() {
-        // Get counters for main inbox and separate mailboxes
-        let counters = document.getElementsByClassName("unseen-count");
+        let countMatch = null;
 
-        // Keep only main counter that aggregates itself other mailboxes - which is the first one-
-        let mainCounter = counters[0]
-
-        // Retrieve the count
-        let count = parseInt(mainCounter.innerHTML.trim())
-
-        Franz.setBadge(count);
+        if (countMatch = document.title.match(COUNT_REGEX)) {
+            let count = parseInt(countMatch[1]);
+            Franz.setBadge(count);
+        } else {
+            Franz.setBadge(0);
+        }
     }
+
     Franz.loop(getMessages);
 }
