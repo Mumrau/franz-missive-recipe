@@ -2,7 +2,7 @@
     "id": "missive",
     "name": "Missive",
     "version": "1.0.0",
-    "description": "Missive App",
+    "description": "Missive App: Work Done Right. Award winning communication app for teams.",
     "main": "index.js",
     "author": "Mathias Chevalier <mc.mumrau@gmail.com>",
     "license": "MIT",
