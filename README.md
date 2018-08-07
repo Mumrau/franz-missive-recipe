@@ -3,4 +3,4 @@ Maintainer: Mathias Chevalier <mc.mumrau@gmail.com>
 
 An unofficial Franz Recipe for Missive App.
 
-For installation and knowledge, refer to [https://github.com/meetfranz/plugins]
+For installation and knowledge, refer to https://github.com/meetfranz/plugins
