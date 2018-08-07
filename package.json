@@ -1,0 +1,21 @@
+{
+    "id": "missive",
+    "name": "Missive",
+    "version": "1.0.0",
+    "description": "Missive App",
+    "main": "index.js",
+    "author": "Mathias Chevalier <mc.mumrau@gmail.com>",
+    "license": "MIT",
+    "repository": "myrepo",
+    "config": {
+        "serviceURL": "https://mail.missiveapp.com/login",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasDirectMessages": true,
+        "hasIndirectMessages": false,
+        "hasTeamID": false,
+        "hasPredefinedUrl": true,
+        "hasCustomUrl": false
+    }
+}
